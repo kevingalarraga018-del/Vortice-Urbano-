@@ -344,6 +344,6 @@ footer{
         padding-left: 20px;
     }
     .main a{
-        transition: 0ms;
+        transition: ease;
     }
 }

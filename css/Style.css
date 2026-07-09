@@ -347,6 +347,6 @@ footer{
         transition: ease;
     }
     .main a :hover{
-        filter: drop-shadow(2px 10px 2px black);
+        filter: drop-shadow(2px 2px 25px black);
     }
 }

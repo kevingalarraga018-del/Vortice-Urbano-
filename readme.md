@@ -1,4 +1,4 @@
-# website Ropa con sublimacion personalizada 
+# Website Ropa con sublimacion personalizada 
 - Alumno: Kevin Galarraga Y Benjamin del Bosco
 - Curso: 2° 1°
 - Carrera: Comunicacion Multimedial

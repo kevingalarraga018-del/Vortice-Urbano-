@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado {
+    height: 95px;
+    background: rgb(3, 168, 100);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logo {
+    background-image: url("../src/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 145px;
+    height: 75px;
+    margin-left: 9px;
+    margin-top: 17px;
+    animation: logotipo 3s ease-in-out infinite
+}
+.logo:hover {
+    transform: scale(1.1);
+     filter: drop-shadow(4px 4px 6px black);
+}
+
+.menu a{
+    line-height: 97px;
+    font-size: 18px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.btncon{
+    padding-bottom: 36px;
+    padding-top: 38px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: rgb(0, 0, 0) !important;
+    transition: 0.6s ease;
+}
+
+.btncon:hover{
+    filter: drop-shadow(2px 2px 2px black);
+    background-color: black;
+    color: white !important;
+}
+
+.btng{
+    padding-bottom: 36px;
+    padding-top: 38px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: rgb(0, 0, 0) !important;
+    transition: 0.6s ease;
+}
+
+.btng:hover{
+     filter: drop-shadow(2px 2px 2px black);
+    background-color: black;
+    color: white !important;
+}
+
+.btnga{
+    padding-bottom: 36px;
+    padding-top: 38px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: rgb(0, 0, 0) !important;
+    transition: 0.6s ease;
+}
+
+.btnga:hover{
+    filter: drop-shadow(2px 2px 2px black);
+    background-color: black;
+    color: white !important;
+}
+
+.btnpro{
+    padding-bottom: 36px;
+    padding-top: 38px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: rgb(0, 0, 0) !important;
+    transition: 0.6s ease;
+}
+
+.btnpro:hover{
+     filter: drop-shadow(2px 2px 2px black);
+    background-color: black;
+    color: white !important;
+}
+
+.carousel-inner img{
+    height: 80vh;
+    object-fit: cover;
+    margin-bottom: 45px;
+    
+}
+
+main{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px 0; 
+}
+
+.tarjetas{
+box-shadow: 5px 5px 5px black;
+border-radius: 8px;
+margin-left: 5px;
+}
+
+.tarjetas img{
+    margin-bottom: 15px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.footer-logo img{
+    width: 90px;
+    height: 90px;
+}
+
+.instagram img{
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+}
+
+.facebook img{
+    width: 50px;
+    height: 50px;
+}
+
+.tiktok img{
+    width: 50px;
+    height: 50px;
+}
+
+.footer-redes{
+    margin-left: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 80px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.card-text{
+    margin-left: 10px;
+}
+
+.Titulo{
+    margin-left: 10px;
+}
+
+.card-text1{
+    margin-left: 10px;
+}
+
+
+.img1 {
+    grid-area: img1;
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.img4 {
+    grid-area: img4;
+}
+
+.img5 {
+    grid-area: img5;
+}
+
+.img6 {
+    grid-area: img6;
+}
+
+.img8 {
+    grid-area: img8;
+}
+
+.img9 {
+    grid-area: img9;
+}
+
+.img10 {
+    grid-area: img10;
+}
+
+.img11 {
+    grid-area: img11;
+}
+
+.img12 {
+    grid-area: img12;
+}
+
+
+
+.galeriafotos{
+    width: 90%;
+    height: 50%;
+    margin: 5px auto;
+    display: grid;
+    grid-template-areas:
+        "img1 img1 img1 img1 img1 img1 img2 img2 img2 img4 img4 img4 img4 img4 img4 img5 img5 img5"
+        "img1 img1 img1 img1 img1 img1 img2 img2 img2 img4 img4 img4 img4 img4 img4 img5 img5 img5"
+        "img1 img1 img1 img1 img1 img1 img3 img3 img3 img4 img4 img4 img4 img4 img4 img6 img6 img6"
+        "img1 img1 img1 img1 img1 img1 img3 img3 img3 img4 img4 img4 img4 img4 img4 img6 img6 img6"
+        "img7 img7 img7 img8 img8 img8 img8 img9 img9 img10 img10 img10 img11 img11 img11 img12 img12 img12"
+        "img7 img7 img7 img8 img8 img8 img8 img9 img9 img10 img10 img10 img11 img11 img11 img12 img12 img12"
+        "img7 img7 img7 img8 img8 img8 img8 img9 img9 img10 img10 img10 img11 img11 img11 img12 img12 img12";
+    grid-template-columns: repeat(1, 2fr);
+    grid-template-rows: repeat(0, 20px);
+    padding: 0 0px;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.galeriafotos img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 0.1s ease-in-out;
+}
+
+.galeriafotos img:hover{
+    filter: drop-shadow(5px 5px 5px black);
+    background-color: black;
+}
+
+
+
+.presenta h1{
+    padding-top: 40px;
+    padding-left: 70px;
+    text-align: center;
+}
+
+.mapa{
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulodefotos{
+    padding-top: 40px;
+    padding-left: 70px;
+    text-align: center;
+}
+
+.mapatodo{
+    background-color: rgb(228, 223, 223);
+}
+
+.conocenos{
+    padding: 40px;
+    padding-top: 50px;
+}
+
+
+.conocenos h4{
+    padding-bottom: 30px;
+}
+
+
+@media (max-width: 550px) {
+
+    .encabezado {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px 0;
+    }
+    .menu a {
+        line-height: normal;
+        padding: 10px, 0;
+    }
+    .carousel-inner{
+        display: flex;
+        padding: 0px;
+    }
+    .carousel-inner img{
+        width: auto;
+        height: 50vh;
+    }
+
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .tarjetas{ 
+        width: 250px;
+        min-width: 250px; 
+        box-shadow: 5px 5px 5px black;
+        border-radius: 8px;
+    }
+    
+    .tarjetas div{
+        width: auto;
+        height: auto;
+    }
+      
+    .card-img-top{
+        height:320px;
+        object-fit:cover;
+    }
+
+    .mapa{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
